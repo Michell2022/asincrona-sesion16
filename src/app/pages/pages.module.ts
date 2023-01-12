@@ -14,6 +14,11 @@ import { MenuuruguayComponent } from './menuuruguay/menuuruguay.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    MenuchileComponent,
+    MenuperuComponent,
+    MenuuruguayComponent
   ]
 })
 export class PagesModule { }
